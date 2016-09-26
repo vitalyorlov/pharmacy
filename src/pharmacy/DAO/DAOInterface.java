@@ -8,7 +8,7 @@ import java.util.List;
 public abstract class DAOInterface {
     private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     private static final String USER = "root";
-    private static final String PASS = "";
+    private static final String PASS = "11112222";
     private static final String DB_URL = "jdbc:mysql://localhost:3306/pharmacy";
     public Connection conn;
     public Statement stmt;
